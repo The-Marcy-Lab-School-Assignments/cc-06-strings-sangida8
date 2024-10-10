@@ -31,4 +31,4 @@ const reverseZigZagString = (str) => {
 };
 console.log(reverseZigZagString("hello")); // Output: "oOlLeH"
 console.log(reverseZigZagString("Fellows")); // Output: "sWoLlEf"
-console.log(reverseZigZagString("Code Challenge ")); // Output: "eGnElLaHc EdOc"
+console.log(reverseZigZagString("Code Challenge ")); // Output: "EgNeLlAhC EdOc"
