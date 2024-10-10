@@ -29,10 +29,6 @@ const reverseZigZagString = (str) => {
   }
   return result;
 };
-console.log(reverseZigZagString("hello"));
-
-// Question 3
-
-// Question 4
-
-// Question 5
+console.log(reverseZigZagString("hello")); // Output: "oOlLeH"
+console.log(reverseZigZagString("Fellows")); // Output: "sWoLlEf"
+console.log(reverseZigZagString("Code Challenge ")); // Output: "eGnElLaHc EdOc"
