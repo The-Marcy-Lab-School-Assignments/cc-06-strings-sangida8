@@ -16,16 +16,20 @@ console.log(reverseString("hello"));
 // Question 2
 
 const reverseZigZagString = (str) => {
-  // I am declaring the function that takes on 'str'
-  let result = ""; // to keep track of the letters
-
+  let isSmall = true;
+  let result = "";
   for (let i = str.length - 1; i >= 0; i--) {
-    if (str[i] === str[i].toUpperCase()) {
+    if (isSmall) {
+      result = result + str[i].toLowerCase();
+      isSmall = false;
+    } else {
+      result = result + str[i].toUpperCase();
+      isSmall = true;
     }
   }
   return result;
 };
-console.log(reverseString("hello"));
+console.log(reverseZigZagString("hello"));
 
 // Question 3
 
